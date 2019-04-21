@@ -1,0 +1,42 @@
+body{
+    background: url("https://cdn-images-1.medium.com/max/1600/1*ivjksIhvAs7TUXbQCxAU0A.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    margin: 100px 100px 20px 100px;
+    background: rgba(36, 31, 31, 0.9);
+}
+.progressbar{
+    padding: 20px 20px;
+    font-size: 20px;
+    color: white;
+}
+.button-to-start-timer {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+}
+.button-to-start-timer:hover {
+    background-position: right center;
+}
+
+.line {
+    background-color: #46ff75;
+    height: 50px;
+    width: 100%;
+    transition: width, .2s;
+    border-radius: 20px;
+}
